@@ -215,3 +215,15 @@ body{
 .card_3{
     background: rgba(255, 223, 0, 0.05);
 }
+
+.target{
+    display: flex;
+    margin: 9px 0;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+.target_item{
+    padding: 40px;
+}
