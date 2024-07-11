@@ -19,13 +19,13 @@ body{
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin-bottom: 52px;
 }
 
-#hero .hero-contener{
+#hero .hero-conteiner{
     width: 708px;
     margin-left: 267px;
     margin-right: 267px;
@@ -97,6 +97,7 @@ body{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: ;
 }
 
 #Why .contain .description{
@@ -111,6 +112,7 @@ body{
 }
 
 #Why .container{
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
