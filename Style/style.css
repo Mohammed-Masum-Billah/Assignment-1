@@ -160,12 +160,58 @@ body{
 }
 
 .board{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0%;
+    margin: 0 200px;
     text-align: center;
-    margin-bottom: 34px;
+    height: 700;
+    opacity: 0.7;
+}
+
+
+.video{
+    box-sizing: inherit;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.goals{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin: 100px 150px;
+    margin-bottom: 25px;
+}
+
+.goal-1{
+    opacity: 0.7;
+}
+
+.goal_card{
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    gap: 24px;
+}
+.card{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin: 20px 0px;
+}
+.card_button{
+    color: #0D1321;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card_2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.card_3{
+    background: rgba(255, 223, 0, 0.05);
 }
