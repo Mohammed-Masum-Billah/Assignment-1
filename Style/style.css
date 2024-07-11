@@ -25,12 +25,11 @@ body{
     margin-bottom: 52px;
 }
 
-#hero .hero-conteiner{
-    width: 708px;
+.hero-conteiner{
     text-align: center;
 }
 
-#hero .hero-conteiner .coder-img{
+.coder-img{
     display: block;
     margin-bottom: 22px;
 }
@@ -46,10 +45,10 @@ body{
     margin: 17px;
 }
 
-#hero .hero-conteiner .description{
+.description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0%;
@@ -57,11 +56,11 @@ body{
     margin-bottom: 22px;
 }
 
-#hero .hero-conteiner .btn1-container{
+.btn1-container{
     text-align: center;
 }
 
-#hero .hero-conteiner .btn1{
+.btn1{
     padding: 15px 17px 15px 17px;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
@@ -70,17 +69,19 @@ body{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    border-radius: 5px;
+    background: rgb(13, 19, 33);
 }
 
 #Why{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     background-color: #fff;
-    width: 809px;
+    /* width: 809px; */
     height: 1325px;
     left: 105px;
     right: 108px;
-    padding: ;
+    padding: 58px 67px 58px 67px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,31 +89,33 @@ body{
     margin-bottom: 62px;
 }
 
-#Why .contain{
+.contain{
     /* border-radius: 16px;
     background: rgba(13, 19, 33, 0.02); */
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 23px;
     font-weight: 800;
-    line-height: 26px;
+    line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
     margin-top: 16px;
 }
 
-#Why .contain .description{
+.description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 15px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 22px;
 }
 
-#Why .container{
+.container{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -121,10 +124,11 @@ body{
     padding: 0px;
 }
 
-#Why .btn{
+.btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 8px 15px 8px 15px;
 }
+
