@@ -137,9 +137,14 @@ body{
 }
 
 .btn{
+    text-decoration: none;
+    color: #000;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    background: rgba(255, 223, 0, 0.05);
 }
 
 .layer-1{
@@ -204,11 +209,7 @@ body{
     padding: 40px;
     margin: 20px 0px;
 }
-.card_button{
-    color: #0D1321;
-    font-weight: bold;
-    cursor: pointer;
-}
+
 .card_2{
     background: rgba(0, 76, 232, 0.05);
 }
@@ -226,4 +227,52 @@ body{
 }
 .target_item{
     padding: 40px;
+}
+
+.support{
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 313px;
+    background: url("../assets/handshake.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support_title{
+    width: 80%;
+    margin: 64px auto;
+    color: #FFFFFF;
+}
+.support_title p{
+    opacity: 0.7
+    
+}
+.support form{
+    margin: 0px 100px;
+}
+.support input[type="text"]{
+    width: 300px;
+    height: 52px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 0px 30px 0px 20px;
+    margin: 15px;
+}
+
+#footer{
+    background: rgba(13, 19, 33, 0.03);
+    margin: 10px 0px;
+}
+.footer_title{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 150px ;
+}
+.footer_social a{
+    margin: 5px;
+    font-size: 25px;
 }
